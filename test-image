@@ -19,6 +19,8 @@ docker run -itd \
 CONTAINER_ID=`cat "${SERVICE_NAME}.cid"`
 
 trap cleanup EXIT
+
+echo "Please wait..."
 sleep 10
 
 docker exec "${CONTAINER_ID}" \
