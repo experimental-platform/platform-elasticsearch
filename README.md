@@ -1,6 +1,6 @@
 # Experimental Platform: elasticsearch
 
-No description given
+Elasticsearch is a search server based on Lucene. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.
 
 This is a component of the experimental platform. To read more about it please go here:
 
