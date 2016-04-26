@@ -6,6 +6,15 @@ This is a component of the experimental platform. To read more about it please g
 
 [https://github.com/experimental-platform/experimental-platform](https://github.com/experimental-platform/experimental-platform)
 
+## Usage
+
+    # build
+    docker build -t "platform-elasticsearch:development" .
+    # run
+    docker run "platform-elasticsearch:development"
+    # test
+    ./test-image
+
 ## Branch: Development
 
 [![Build Status](https://travis-ci.org/experimental-platform/platform-elasticsearch.svg?branch=development)](https://travis-ci.org/experimental-platform/platform-elasticsearch)
